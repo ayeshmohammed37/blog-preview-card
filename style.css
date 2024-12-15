@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f4d04e;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #121212;
+    border-radius: 1rem;
+    box-shadow: 7px 7px;
+    width: 100%;
+    max-width: 333px;
+    padding: 1rem;
+}
+
+.card__picture {
+    width: 100%;
+    margin-bottom: 1rem;
+    /* display: flex;
+    justify-content: center; */
+}
+
+
+.card__img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+
+.card__text{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 800;
+    background-color: #f4d04e;
+    border-radius: 0.3rem;
+    letter-spacing: -0.01rem;
+    padding: 0.5em 1em;
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+
+
+.card__date{
+    font-size: 0.8rem;    
+}
+
+
+.card__text1-format{
+    margin: 1rem 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.card__text1-format:hover{
+    color: #f4d04e;
+}
+
+.card__text2{
+    color: #808080;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: -0.01rem;
+    margin-bottom: 1rem;
+}
+
+
+.card__person{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.card__person__img{
+    display: block;
+    width: 30px;
+}
+
+.card__person__name{
+    margin-left: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
